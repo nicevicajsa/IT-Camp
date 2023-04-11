@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.help{
+    display: flex;
+    justify-content: center;
+    background-color: snow ;
+    justify-content: space-evenly;
+    
+    
+    
+    
+    
+}
+.sumeja{
+    width: 252px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgb(252, 252, 200);
+
+}
+img{
+    width: 250px;
+    height: 150px;
+   
+}
+h4{
+    padding: 5px;
+    color: maroon;
+
+}
+span{
+  padding: 0px 28px;
+}
+p{
+    padding: 20px 5px;
+}
+h5{
+  padding: 25px 5px;
+}
+.tajiba{
+    width: 252px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgb(252, 252, 200);
+
+}
+.ajsa{
+    width: 252px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgb(252, 252, 200);
+}
+button{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(252, 252, 200);
+    color: maroon;
+    border: 1px solid black;
+    
+   
+}
+button:hover{
+    background-color: rgb(106, 106, 134);
+    color: rgb(0, 0, 59);
+    border: 1px solid rgb(0, 0, 59) ;
+
+}
+@media only screen and (max-width: 765px){
+    .help{
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+}

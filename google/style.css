@@ -1,0 +1,30 @@
+img{ width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .main{
+    margin-top: 170px;
+ }
+ .search-input{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid grey;
+
+ }
+ .btn-wraper{
+    margin-left: 560px;
+    margin-right: 20px;
+    margin-top: 20px;
+ }
+ .btn{
+    padding: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 15px;
+    border: 1px solid gray;
+ }

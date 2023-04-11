@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image:url("https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTg0NTEzNzgyNTMyNDE2OTk5/black-cat-gettyimages-901574784.jpg");
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 150px;
+    margin: 20px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color:  white;
+}
+li a:hover{
+    color: black;
+    background-color: white;
+    transition: 0,5s;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.title h1{
+    font-size: 70px;
+    color: snow;
+    margin-bottom: 25px; 
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+.button :hover{
+    background-color: black;
+    color: whitesmoke;
+
+}

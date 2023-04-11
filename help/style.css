@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6E0FF;
+}
+.main{
+    display: flex;
+    width: 400px;
+    height: 700px;
+    background-color: white;
+    border-radius: 15px;
+    flex-direction: column;
+    
+}
+img{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+.title{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.plan{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
